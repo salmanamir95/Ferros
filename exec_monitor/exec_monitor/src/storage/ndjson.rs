@@ -25,16 +25,19 @@ impl StorageBackend for NdjsonStorage {
             .unwrap_or("")
             .trim_end_matches('\0');
 
+        let wall_clock_time = chrono::Utc::now().to_rfc3339();
+
         let json_event = json!({
-            "timestamp": event.timestamp,
+            "boot_time_ns": event.boot_time_ns,
+            "wall_clock_time": wall_clock_time,
             "pid": event.pid,
             "ppid": event.ppid,
             "uid": event.uid,
             "gid": event.gid,
             "syscall_id": event.syscall_id,
             "comm": comm_str,
-            "cpu_usage": event.cpu_usage,
-            "memory_usage": event.memory_usage,
+            "cpu_usage_snapshot": event.cpu_usage_snapshot,
+            "memory_rss_snapshot": event.memory_rss_snapshot,
             "network_tx": event.network_tx,
             "network_rx": event.network_rx,
             "temperature": event.temperature,

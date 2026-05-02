@@ -1,6 +1,5 @@
-use aya::programs::RawTracePoint;
+use aya::programs::TracePoint;
 use aya::{include_bytes_aligned, Ebpf};
-use aya::maps::HashMap;
 
 pub struct BpfApp {
     pub ebpf: Ebpf,
@@ -21,18 +20,31 @@ impl BpfApp {
             "/exec_monitor"
         )))?;
 
-        let program: &mut RawTracePoint = ebpf.program_mut("sys_enter_monitor").unwrap().try_into()?;
+        // Attach sys_enter_execve
+        let program: &mut TracePoint = ebpf.program_mut("sys_enter_execve").unwrap().try_into()?;
         program.load()?;
-        program.attach("sys_enter")?;
+        program.attach("syscalls", "sys_enter_execve")?;
+
+        // Attach sys_enter_connect
+        let program: &mut TracePoint = ebpf.program_mut("sys_enter_connect").unwrap().try_into()?;
+        program.load()?;
+        program.attach("syscalls", "sys_enter_connect")?;
+
+        // Attach sys_enter_openat
+        let program: &mut TracePoint = ebpf.program_mut("sys_enter_openat").unwrap().try_into()?;
+        program.load()?;
+        program.attach("syscalls", "sys_enter_openat")?;
+
+        // Attach sys_enter_clone
+        let program: &mut TracePoint = ebpf.program_mut("sys_enter_clone").unwrap().try_into()?;
+        program.load()?;
+        program.attach("syscalls", "sys_enter_clone")?;
+
+        // Attach sys_enter_write
+        let program: &mut TracePoint = ebpf.program_mut("sys_enter_write").unwrap().try_into()?;
+        program.load()?;
+        program.attach("syscalls", "sys_enter_write")?;
 
         Ok(Self { ebpf })
-    }
-
-    pub fn init_syscalls(&mut self, syscall_ids: &[u32]) -> anyhow::Result<()> {
-        let mut map: HashMap<_, u32, u8> = HashMap::try_from(self.ebpf.map_mut("MONITORED_SYSCALLS").unwrap())?;
-        for &id in syscall_ids {
-            map.insert(id, 1, 0)?;
-        }
-        Ok(())
     }
 }

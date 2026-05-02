@@ -12,21 +12,12 @@ use poller::EventPoller;
 use storage::{ndjson::NdjsonStorage, multiplexer::StorageMultiplexer, StorageBackend};
 use sysinfo::System;
 
-#[cfg(target_arch = "x86_64")]
-const SYSCALLS: &[u32] = &[59, 42, 257, 56, 1]; // execve, connect, openat, clone, write
-
-#[cfg(target_arch = "aarch64")]
-const SYSCALLS: &[u32] = &[221, 203, 56, 220, 64];
-
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
     env_logger::Builder::from_env(env_logger::Env::default().default_filter_or("info")).init();
 
     // 1. Load BPF program
     let mut app = BpfApp::load()?;
-    
-    // Initialize syscalls mapping
-    app.init_syscalls(SYSCALLS)?;
 
     // 2. Set up Storage Multiplexer
     let mut multiplexer = StorageMultiplexer::new();
@@ -47,15 +38,40 @@ async fn main() -> anyhow::Result<()> {
         }
     });
 
-    // 5. Start Storage Consumer Thread with basic enrichment
+    // 5. Start Storage Consumer Thread with accurate enrichment
     thread::spawn(move || {
         let mut sys = System::new_all();
         while let Ok(mut event) = rx.recv() {
-            sys.refresh_cpu();
-            sys.refresh_memory();
+            let pid = sysinfo::Pid::from_u32(event.pid);
             
-            event.cpu_usage = sys.global_cpu_info().cpu_usage() as u32;
-            event.memory_usage = sys.used_memory();
+            // Refresh specific process
+            sys.refresh_process(pid);
+            
+            if let Some(process) = sys.process(pid) {
+                // PPID Fallback via native /proc/<pid>/stat (not relying on sysinfo internals for PPID)
+                if event.ppid == 0 {
+                    if let Ok(stat) = std::fs::read_to_string(format!("/proc/{}/stat", event.pid)) {
+                        // Safely parse after the last ')' to avoid issues with spaces in the process name
+                        if let Some(rparen) = stat.rfind(')') {
+                            let remainder = &stat[rparen + 1..];
+                            let parts: Vec<&str> = remainder.split_whitespace().collect();
+                            // parts[0] = state, parts[1] = ppid
+                            if parts.len() > 1 {
+                                if let Ok(parent_pid) = parts[1].parse::<u32>() {
+                                    event.ppid = parent_pid;
+                                }
+                            }
+                        }
+                    }
+                }
+                // Accurate Snapshot Metrics
+                event.cpu_usage_snapshot = process.cpu_usage() as u32;
+                event.memory_rss_snapshot = process.memory();
+            } else {
+                // If process is already dead, default to 0
+                event.cpu_usage_snapshot = 0;
+                event.memory_rss_snapshot = 0;
+            }
 
             let _ = multiplexer.store(&event);
         }
