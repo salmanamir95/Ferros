@@ -1,5 +1,5 @@
 use crate::storage::StorageBackend;
-use exec_monitor_common::ExecEvent;
+use exec_monitor_common::SyscallEvent;
 
 /// Broadcasts an event to multiple storage backends
 pub struct StorageMultiplexer {
@@ -17,7 +17,7 @@ impl StorageMultiplexer {
 }
 
 impl StorageBackend for StorageMultiplexer {
-    fn store(&mut self, event: &ExecEvent) -> anyhow::Result<()> {
+    fn store(&mut self, event: &SyscallEvent) -> anyhow::Result<()> {
         for backend in &mut self.backends {
             // We ignore individual backend failures so one failing disk doesn't crash everything
             let _ = backend.store(event);

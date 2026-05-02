@@ -1,5 +1,6 @@
-use aya::programs::TracePoint;
+use aya::programs::RawTracePoint;
 use aya::{include_bytes_aligned, Ebpf};
+use aya::maps::HashMap;
 
 pub struct BpfApp {
     pub ebpf: Ebpf,
@@ -20,10 +21,18 @@ impl BpfApp {
             "/exec_monitor"
         )))?;
 
-        let program: &mut TracePoint = ebpf.program_mut("exec_monitor").unwrap().try_into()?;
+        let program: &mut RawTracePoint = ebpf.program_mut("sys_enter_monitor").unwrap().try_into()?;
         program.load()?;
-        program.attach("sched", "sched_process_exec")?;
+        program.attach("sys_enter")?;
 
         Ok(Self { ebpf })
+    }
+
+    pub fn init_syscalls(&mut self, syscall_ids: &[u32]) -> anyhow::Result<()> {
+        let mut map: HashMap<_, u32, u8> = HashMap::try_from(self.ebpf.map_mut("MONITORED_SYSCALLS").unwrap())?;
+        for &id in syscall_ids {
+            map.insert(id, 1, 0)?;
+        }
+        Ok(())
     }
 }

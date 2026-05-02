@@ -1,11 +1,11 @@
-mod events;
-mod system;
-mod network;
-mod devices;
-mod sensors;
-mod usb;
-mod pci;
-mod bluetooth;
+pub mod events;
+pub mod system;
+pub mod network;
+pub mod devices;
+pub mod sensors;
+pub mod usb;
+pub mod pci;
+pub mod bluetooth;
 
 use events::{Dispatcher, LoggerSubscriber};
 use system::SystemCollector;
@@ -20,8 +20,7 @@ use simplelog::{Config, WriteLogger};
 use std::fs::File;
 use tokio::time::{interval, Duration};
 
-#[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
+pub async fn start_telemetry() -> Result<(), Box<dyn std::error::Error>> {
     // Initialize logger
     let log_file = File::create("telemetry.log")?;
     WriteLogger::init(LevelFilter::Info, Config::default(), log_file)?;

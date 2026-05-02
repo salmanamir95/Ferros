@@ -24,6 +24,10 @@ tokio = { workspace = true, features = [
 csv = "1.4.0"
 chrono = "0.4.44"
 bytes = "1.11.1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+telemetry = { path = "../../telemetry" }
+sysinfo = "0.30"
 [build-dependencies]
 anyhow = { workspace = true }
 aya-build = { workspace = true }

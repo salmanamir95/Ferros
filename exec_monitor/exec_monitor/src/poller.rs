@@ -2,7 +2,7 @@ use aya::maps::perf::PerfEventArray;
 use aya::maps::MapData;
 use aya::util::online_cpus;
 use bytes::BytesMut;
-use exec_monitor_common::ExecEvent;
+use exec_monitor_common::SyscallEvent;
 use std::sync::mpsc;
 use std::thread;
 use std::time::Duration;
@@ -17,7 +17,7 @@ impl EventPoller {
         Self { perf_array }
     }
 
-    pub fn start(mut self, tx: mpsc::Sender<ExecEvent>) -> anyhow::Result<()> {
+    pub fn start(mut self, tx: mpsc::Sender<SyscallEvent>) -> anyhow::Result<()> {
         for cpu_id in online_cpus().map_err(|(_, error)| error)? {
             let mut buf = self.perf_array.open(cpu_id, None)?;
             let tx_clone = tx.clone();
@@ -27,7 +27,7 @@ impl EventPoller {
                 loop {
                     if let Ok(events) = buf.read_events(&mut buffers) {
                         for i in 0..events.read {
-                            let ptr = buffers[i].as_ptr() as *const ExecEvent;
+                            let ptr = buffers[i].as_ptr() as *const SyscallEvent;
                             let data = unsafe { ptr.read_unaligned() };
                             let _ = tx_clone.send(data);
                         }
