@@ -21,9 +21,8 @@ use std::fs::File;
 use tokio::time::{interval, Duration};
 
 pub async fn start_telemetry() -> Result<(), Box<dyn std::error::Error>> {
-    // Initialize logger
-    let log_file = File::create("telemetry.log")?;
-    WriteLogger::init(LevelFilter::Info, Config::default(), log_file)?;
+    // Logger initialization is now handled by the main daemon (exec_monitor)
+    // to prevent "logger already initialized" errors.
 
     // Create event system
     let (dispatcher, receiver) = Dispatcher::new();
