@@ -1,8 +1,6 @@
 #ifndef CONSTANTS_H
 #define CONSTANTS_H
 
-#define TASK_COMM_LEN 16
-#define MAX_PID_ENTRIES 10240
-#define RINGBUF_SIZE 4096
+/* Add future project-specific constants here that aren't shared in structs */
 
 #endif

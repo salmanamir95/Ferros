@@ -21,17 +21,21 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(PROJECT_ROOT ${CMAKE_SOURCE_DIR})
 
 # =========================================================
-# Include Directories (Userspace)
+# Skeleton Policy (IMPORTANT)
+# =========================================================
+# ALL generated .skel.h files MUST live here
+set(SKELETON_DIR ${PROJECT_ROOT}/userspace/inc)
+
+# =========================================================
+# Include Directories
 # =========================================================
 
 set(INCLUDE_DIRS
     ${PROJECT_ROOT}/shared/inc
+    ${SKELETON_DIR}              # <-- skeletons ONLY here
     ${PROJECT_ROOT}/userspace/inc
     ${PROJECT_ROOT}/ebpf/inc
-    ${PROJECT_ROOT}/ebpf
 )
-
-include_directories(${INCLUDE_DIRS})
 
 # =========================================================
 # Userspace Sources
@@ -46,7 +50,7 @@ file(GLOB_RECURSE USERSPACE_SOURCES
 )
 
 # =========================================================
-# Headers (for IDE support)
+# Headers (IDE support)
 # =========================================================
 
 file(GLOB_RECURSE PROJECT_HEADERS
@@ -57,7 +61,7 @@ file(GLOB_RECURSE PROJECT_HEADERS
 )
 
 # =========================================================
-# eBPF Sources
+# eBPF Sources ONLY (.bpf.c)
 # =========================================================
 
 file(GLOB_RECURSE BPF_SOURCES
@@ -113,7 +117,6 @@ foreach(bpf_file ${BPF_SOURCES})
     )
 
     add_custom_command(
-
         OUTPUT ${output_file}
 
         COMMAND clang
@@ -122,7 +125,7 @@ foreach(bpf_file ${BPF_SOURCES})
             -target bpf
             -D__TARGET_ARCH_x86
 
-            # IMPORTANT: include ALL headers for BPF build
+            # eBPF includes ONLY kernel + shared headers
             -I${PROJECT_ROOT}/ebpf
             -I${PROJECT_ROOT}/ebpf/inc
             -I${PROJECT_ROOT}/shared/inc
@@ -150,35 +153,13 @@ add_custom_target(ebpf_objects ALL
 )
 
 # =========================================================
-# Debug output
+# IMPORTANT POLICY CHECK (skeleton enforcement)
 # =========================================================
 
-message(STATUS "")
-message(STATUS "========== INCLUDE DIRS ==========")
-
-foreach(dir ${INCLUDE_DIRS})
-    message(STATUS ${dir})
-endforeach()
-
-message(STATUS "")
-message(STATUS "========== USERSPACE SOURCES ==========")
-
-foreach(file ${USERSPACE_SOURCES})
-    message(STATUS ${file})
-endforeach()
-
-message(STATUS "")
-message(STATUS "========== eBPF SOURCES ==========")
-
-foreach(file ${BPF_SOURCES})
-    message(STATUS ${file})
-endforeach()
-
-message(STATUS "")
-message(STATUS "========== HEADERS ==========")
-
-foreach(file ${PROJECT_HEADERS})
-    message(STATUS ${file})
-endforeach()
-
-message(STATUS "")
+add_custom_target(check_skeleton_policy ALL
+    COMMAND ${CMAKE_COMMAND} -E echo ""
+    COMMAND ${CMAKE_COMMAND} -E echo "=== SKELETON POLICY ==="
+    COMMAND ${CMAKE_COMMAND} -E echo "All *.skel.h MUST be in:"
+    COMMAND ${CMAKE_COMMAND} -E echo "${SKELETON_DIR}"
+    COMMAND ${CMAKE_COMMAND} -E echo ""
+)

@@ -1,166 +1,92 @@
 #include "loader.h"
 
 #include <iostream>
+#include <iomanip>
 #include <csignal>
-#include <unistd.h>
+#include <cstring>
 
 #include <bpf/libbpf.h>
-#include <bpf/bpf.h>
 
+#include "cpu_usage.skel.h"
 #include "events.h"
 
 static volatile bool running = true;
 
-/* =========================================================
-   Signal handler (Ctrl + C)
-========================================================= */
 static void handle_signal(int)
 {
     running = false;
 }
 
-/* =========================================================
-   Ring buffer callback
-========================================================= */
+/* ring buffer callback */
 static int handle_event(void *ctx, void *data, size_t size)
 {
-    cpu_event *e = (cpu_event *)data;
+    if (size < sizeof(cpu_event))
+        return 0;
 
-    std::cout
-        << "PID: " << e->pid
-        << " | RUNTIME(ns): " << e->runtime_ns
-        << " | COMM: " << e->comm
-        << std::endl;
+    const cpu_event *e = (const cpu_event *)data;
+
+    double time_sec = (double)e->timestamp_ns / 1e9;
+
+    std::cout << std::left
+              << "[" << std::fixed << std::setprecision(6)
+              << time_sec << "] "
+              << "CPU: " << std::setw(3) << e->cpu
+              << " | PID: " << std::setw(7) << e->pid
+              << " | COMM: " << std::setw(16) << e->comm
+              << std::endl;
 
     return 0;
 }
 
-/* =========================================================
-   Main eBPF loader
-========================================================= */
 int start_ebpf()
 {
     signal(SIGINT, handle_signal);
+    signal(SIGTERM, handle_signal);
 
     libbpf_set_strict_mode(LIBBPF_STRICT_ALL);
 
-    std::cout << "Opening eBPF object...\n";
-
-    struct bpf_object *obj;
-
-    obj = bpf_object__open_file(
-        "../build/cpu_usage.bpf.o",
-        NULL
-    );
-
-    if (!obj)
-    {
-        std::cerr << "Failed to open eBPF object\n";
+    /* Load + verify */
+    cpu_usage_bpf *skel = cpu_usage_bpf__open_and_load();
+    if (!skel) {
+        std::cerr << "Failed to load BPF skeleton\n";
         return 1;
     }
 
-    std::cout << "Loading eBPF program...\n";
-
-    if (bpf_object__load(obj))
-    {
-        std::cerr << "Failed to load eBPF program\n";
-        bpf_object__close(obj);
+    /* Attach */
+    if (cpu_usage_bpf__attach(skel)) {
+        std::cerr << "Failed to attach BPF program\n";
         return 1;
     }
 
-    /* =====================================================
-       Find program
-    ===================================================== */
+    std::cout << "BPF Attached Successfully\n";
 
-    struct bpf_program *prog;
+    /* Ring buffer */
+    int map_fd = bpf_map__fd(skel->maps.events);
 
-    prog = bpf_object__find_program_by_name(
-        obj,
-        "handle_sched_switch"
-    );
-
-    if (!prog)
-    {
-        std::cerr << "Failed to find program\n";
-        bpf_object__close(obj);
-        return 1;
-    }
-
-    /* =====================================================
-       Attach tracepoint
-    ===================================================== */
-
-    struct bpf_link *link;
-
-    link = bpf_program__attach_tracepoint(
-        prog,
-        "sched",
-        "sched_switch"
-    );
-
-    if (!link)
-    {
-        std::cerr << "Failed to attach tracepoint\n";
-        bpf_object__close(obj);
-        return 1;
-    }
-
-    /* =====================================================
-       Setup ring buffer
-    ===================================================== */
-
-    int map_fd = bpf_object__find_map_fd_by_name(
-        obj,
-        "events"
-    );
-
-    if (map_fd < 0)
-    {
-        std::cerr << "Failed to find ring buffer map\n";
-        bpf_link__destroy(link);
-        bpf_object__close(obj);
-        return 1;
-    }
-
-    struct ring_buffer *rb;
-
-    rb = ring_buffer__new(
-        map_fd,
-        handle_event,
-        NULL,
-        NULL
-    );
-
-    if (!rb)
-    {
+    struct ring_buffer *rb = ring_buffer__new(map_fd, handle_event, NULL, NULL);
+    if (!rb) {
         std::cerr << "Failed to create ring buffer\n";
-        bpf_link__destroy(link);
-        bpf_object__close(obj);
         return 1;
     }
 
-    /* =====================================================
-       Running loop
-    ===================================================== */
+    std::cout << "TIMESTAMP        CPU   PID     COMM\n";
+    std::cout << "----------------------------------------\n";
 
-    std::cout << "eBPF attached successfully\n";
-    std::cout << "Monitoring CPU scheduling...\n";
-    std::cout << "Press Ctrl+C to stop\n";
-
+    /* Main loop */
     while (running)
     {
-        ring_buffer__poll(rb, 100);
+        int err = ring_buffer__poll(rb, 100);
+        if (err == -EINTR)
+            continue;
+        if (err < 0) {
+            std::cerr << "Ring buffer error: " << err << "\n";
+            break;
+        }
     }
 
-    /* =====================================================
-       Cleanup
-    ===================================================== */
-
     ring_buffer__free(rb);
-    bpf_link__destroy(link);
-    bpf_object__close(obj);
+    cpu_usage_bpf__destroy(skel);
 
-    std::cout << "Exiting...\n";
-
+    std::cout << "\nStopped.\n";
     return 0;
 }

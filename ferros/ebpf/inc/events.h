@@ -1,12 +1,17 @@
 #ifndef EVENTS_H
 #define EVENTS_H
 
-typedef unsigned int __u32;
-typedef unsigned long long __u64;
+#define RINGBUF_SIZE (256 * 1024)
 
 struct cpu_event {
-    __u32 pid;
-    __u64 runtime_ns;
+    unsigned int pid;
+    unsigned int tgid;
+    unsigned int cpu;
+    unsigned int exit_code;
+
+    unsigned long long timestamp_ns;
+    unsigned long long runtime_ns;
+
     char comm[16];
 };
 
