@@ -48,3 +48,23 @@ void ProcessLifecycleAnalyzer::updateState(const cpu_event& e)
         s.exited = true;
     }
 }
+
+std::vector<ProcessLifecycleInsight> ProcessLifecycleAnalyzer::getInsights() const
+{
+    std::vector<ProcessLifecycleInsight> out;
+    out.reserve(state.size());
+
+    for (const auto& [pid, s] : state)
+    {
+        out.push_back({
+            pid,
+            s.first_seen,
+            s.last_seen,
+            s.event_count,
+            s.exit_code,
+            s.exited
+        });
+    }
+
+    return out;
+}

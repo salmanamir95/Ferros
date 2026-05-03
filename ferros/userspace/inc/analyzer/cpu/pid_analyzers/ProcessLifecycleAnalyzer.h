@@ -17,11 +17,14 @@
 #include "analyzer/cpu/ICPUAnalyzer.h"
 #include "telemetry/TelemetryBundle.h"
 #include "events.h"
+#include "analyzer/cpu/pid_analyzers/ProcessLifecycleInsight.h"
 
 class ProcessLifecycleAnalyzer : public ICPUAnalyzer
 {
 public:
     void analyze(const TelemetryBundle& bundle) override;
+
+    std::vector<ProcessLifecycleInsight> getInsights() const;
 
 private:
     struct LifecycleState
@@ -32,6 +35,8 @@ private:
         u32 exit_code   = 0;
         bool exited     = false;
     };
+
+    
 
     std::unordered_map<u32, LifecycleState> state;
 
