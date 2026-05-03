@@ -1,5 +1,5 @@
 #include<iostream>
-#include "mods/CPUTelemetry.h"
+#include "telemetry/CPUTelemetry.h"
 #include <algorithm>
 
 // --------------------

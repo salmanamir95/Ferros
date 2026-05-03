@@ -1,12 +1,21 @@
 #include <iostream>
-#include "loader.h"
-#include "mods/CPUTelemetry.h"
+
+#include "core/loader.h"
+#include "telemetry/TelemetryBundle.h"
 
 int main()
 {
-    CPUTelemetry _cpu;
-    int ret = start_ebpf(_cpu);
+    // ----------------------------
+    // Central telemetry container
+    // ----------------------------
+    TelemetryBundle bundle;
+
+    // ----------------------------
+    // Start eBPF ingestion
+    // ----------------------------
+    int ret = start_ebpf(bundle);
 
     std::cerr << "Program exited with code: " << ret << std::endl;
+
     return ret;
 }
