@@ -1,5 +1,0 @@
-/home/binaryhive/Public/University/IoT/Ferros/ferros/build_final/CMakeFiles/ferros.dir
-/home/binaryhive/Public/University/IoT/Ferros/ferros/build_final/CMakeFiles/ebpf_objects.dir
-/home/binaryhive/Public/University/IoT/Ferros/ferros/build_final/CMakeFiles/check_skeleton_policy.dir
-/home/binaryhive/Public/University/IoT/Ferros/ferros/build_final/CMakeFiles/edit_cache.dir
-/home/binaryhive/Public/University/IoT/Ferros/ferros/build_final/CMakeFiles/rebuild_cache.dir
