@@ -34,7 +34,6 @@ set(INCLUDE_DIRS
     ${PROJECT_ROOT}/shared/inc
     ${SKELETON_DIR}              # <-- skeletons ONLY here
     ${PROJECT_ROOT}/userspace/inc
-    ${PROJECT_ROOT}/ebpf/inc
 )
 
 # =========================================================
@@ -57,7 +56,6 @@ file(GLOB_RECURSE PROJECT_HEADERS
     CONFIGURE_DEPENDS
     ${PROJECT_ROOT}/userspace/inc/*.h
     ${PROJECT_ROOT}/shared/inc/*.h
-    ${PROJECT_ROOT}/ebpf/inc/*.h
 )
 
 # =========================================================
@@ -82,6 +80,7 @@ find_library(LIBBPF_LIB bpf REQUIRED)
 add_executable(${PROJECT_NAME}
     ${USERSPACE_SOURCES}
     ${PROJECT_HEADERS}
+    ${BPF_SKELS}
 )
 
 target_include_directories(${PROJECT_NAME}
@@ -115,6 +114,9 @@ foreach(bpf_file ${BPF_SOURCES})
     set(output_file
         ${CMAKE_BINARY_DIR}/${bpf_name}.bpf.o
     )
+    set(skel_file
+        ${SKELETON_DIR}/${bpf_name}.skel.h
+    )
 
     add_custom_command(
         OUTPUT ${output_file}
@@ -127,7 +129,6 @@ foreach(bpf_file ${BPF_SOURCES})
 
             # eBPF includes ONLY kernel + shared headers
             -I${PROJECT_ROOT}/ebpf
-            -I${PROJECT_ROOT}/ebpf/inc
             -I${PROJECT_ROOT}/shared/inc
 
             -c ${bpf_file}
@@ -140,7 +141,15 @@ foreach(bpf_file ${BPF_SOURCES})
         COMMENT "Building eBPF object: ${bpf_name}"
     )
 
+    add_custom_command(
+        OUTPUT ${skel_file}
+        COMMAND bpftool gen skeleton ${output_file} > ${skel_file}
+        DEPENDS ${output_file}
+        COMMENT "Generating BPF skeleton: ${bpf_name}"
+    )
+
     list(APPEND BPF_OBJECTS ${output_file})
+    list(APPEND BPF_SKELS ${skel_file})
 
 endforeach()
 

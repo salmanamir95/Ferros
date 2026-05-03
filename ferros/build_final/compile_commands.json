@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/binaryhive/Public/University/IoT/Ferros/ferros/build_final",
+  "command": "/usr/bin/c++  -I/home/binaryhive/Public/University/IoT/Ferros/ferros/shared/inc -I/home/binaryhive/Public/University/IoT/Ferros/ferros/userspace/inc -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/ferros.dir/userspace/src/loader.cpp.o -c /home/binaryhive/Public/University/IoT/Ferros/ferros/userspace/src/loader.cpp",
+  "file": "/home/binaryhive/Public/University/IoT/Ferros/ferros/userspace/src/loader.cpp",
+  "output": "CMakeFiles/ferros.dir/userspace/src/loader.cpp.o"
+},
+{
+  "directory": "/home/binaryhive/Public/University/IoT/Ferros/ferros/build_final",
+  "command": "/usr/bin/c++  -I/home/binaryhive/Public/University/IoT/Ferros/ferros/shared/inc -I/home/binaryhive/Public/University/IoT/Ferros/ferros/userspace/inc -std=gnu++17 -Wall -Wextra -Wpedantic -o CMakeFiles/ferros.dir/userspace/src/main.cpp.o -c /home/binaryhive/Public/University/IoT/Ferros/ferros/userspace/src/main.cpp",
+  "file": "/home/binaryhive/Public/University/IoT/Ferros/ferros/userspace/src/main.cpp",
+  "output": "CMakeFiles/ferros.dir/userspace/src/main.cpp.o"
+}
+]

@@ -2,8 +2,8 @@
 
 set -e  # stop immediately if anything fails
 
-PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
-BUILD_DIR="$PROJECT_DIR/build"
+PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+BUILD_DIR="$PROJECT_DIR/build_final"
 
 echo "== Ferros Build Script =="
 
@@ -12,7 +12,7 @@ cd "$PROJECT_DIR"
 
 # Step 2: clean old build
 echo "[1/5] Cleaning build directory..."
-rm -rf "$BUILD_DIR"
+rm -rf "$BUILD_DIR" || sudo rm -rf "$BUILD_DIR" || true
 
 # Step 3: recreate build directory
 echo "[2/5] Creating build directory..."

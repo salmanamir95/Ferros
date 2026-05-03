@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ferros.dir/userspace/src/loader.cpp.o CMakeFiles/ferros.dir/userspace/src/main.cpp.o -o ferros  /usr/lib/x86_64-linux-gnu/libbpf.so -lelf -lz 
