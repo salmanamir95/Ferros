@@ -33,7 +33,7 @@ static int handle_event(void *ctx, void *data, size_t size)
 // ----------------------------
 // eBPF lifecycle
 // ----------------------------
-int start_ebpf(TelemetryBundle &bundle)
+int start_ebpf(TelemetryBundle &bundle, AnalyzerRegistry &registry)
 {
     struct cpu_usage_bpf *skel = nullptr;
     struct ring_buffer *rb = nullptr;
@@ -105,7 +105,7 @@ int start_ebpf(TelemetryBundle &bundle)
             std::cerr << "ring buffer error: " << err << "\n";
             break;
         }
-
+         registry.runAll(bundle);
         if (std::chrono::steady_clock::now() >= end)
             break;
     }
