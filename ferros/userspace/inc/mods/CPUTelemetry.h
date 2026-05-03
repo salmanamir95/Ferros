@@ -1,3 +1,4 @@
+#pragma once
 #include <vector>
 #include "events.h"
 
@@ -41,8 +42,6 @@ public:
         u64 min_runtime_ns,
         u64 max_runtime_ns) const;
 
-    std::vector<cpu_event>
-    getByTimestampRange(u64 start_ns, u64 end_ns) const;
 
     // --------------------
     // UPDATE (optional)

@@ -14,51 +14,22 @@
 #include "processes.h"
 
 #include <fstream>
+#include "mods/CPUTelemetry.h"
 
-void dump_processes(const std::map<u32, std::string> &process_table,
-                    const std::string &filename = "processes.txt") 
+static int handle_event(void *ctx, void *data, size_t size)
 {
-    std::ofstream out(filename);
+    auto *telemetry = static_cast<CPUTelemetry *>(ctx);
 
-    if (!out.is_open()) {
-        return; // or log error
-    }
-
-    out << "PID\tCOMM\n";
-    out << "-------------------------\n";
-
-    for (const auto & [pid, name] : process_table) {
-        out << pid << "\t" << name << "\n";
-    }
-
-    out.close();
-}
-
-static int handle_event(void * /*ctx*/, void *data, size_t size)
-{
     const struct cpu_event *e = (const struct cpu_event *)data;
 
     if (size < sizeof(struct cpu_event))
         return 0;
 
-    double time_sec = (double)e->timestamp_ns / 1e9;
+    telemetry->addEvent(*e);
 
-
-    // std::cout << std::left
-    //           << std::setw(15) << std::fixed << std::setprecision(6) << time_sec
-    //           << " CPU[" << std::setw(2) << e->cpu << "] "
-    //           << " PID: " << std::setw(7) << e->pid
-    //           << " TGID: " << std::setw(7) << e->tgid
-    //           << " EXIT: " << std::setw(4) << e->exit_code
-    //           << " RUNTIME(ns): " << std::setw(12) << e->runtime_ns
-    //           << " COMM: " << std::setw(16) << e->comm
-    //           << std::endl;
-    
-    ingest(*e);
     return 0;
 }
-
-int start_ebpf()
+int start_ebpf(CPUTelemetry &telemetry)
 {
     struct cpu_usage_bpf *skel;
     struct ring_buffer *rb = NULL;
@@ -94,11 +65,11 @@ int start_ebpf()
     }
 
     /* Set up ring buffer polling */
-    rb = ring_buffer__new(
-        bpf_map__fd(skel->maps.events),
-        handle_event,
-        NULL,
-        NULL);
+rb = ring_buffer__new(
+    bpf_map__fd(skel->maps.events),
+    handle_event,
+    &telemetry,
+    NULL);
 
     if (!rb)
     {
@@ -106,13 +77,6 @@ int start_ebpf()
         goto cleanup;
     }
 
-    std::cout << "\n"
-              << std::string(60, '=') << "\n";
-    std::cout << " FERROS eBPF MONITOR STARTED\n";
-    std::cout << std::string(60, '=') << "\n";
-    std::cout << std::left << std::setw(15) << "TIMESTAMP"
-              << " DETAILS\n";
-    std::cout << std::string(60, '-') << std::endl;
 
     while (1)
     {
@@ -135,6 +99,5 @@ int start_ebpf()
 cleanup:
     ring_buffer__free(rb);
     cpu_usage_bpf__destroy(skel);
-    dump_processes(process_table);
     return err < 0 ? -err : 0;
 }
