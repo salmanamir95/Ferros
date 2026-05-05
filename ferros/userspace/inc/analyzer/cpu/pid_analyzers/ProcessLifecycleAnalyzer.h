@@ -36,6 +36,7 @@ private:
         bool exited     = false;
     };
 
+    size_t last_processed = 0;
     
 
     std::unordered_map<u32, LifecycleState> state;

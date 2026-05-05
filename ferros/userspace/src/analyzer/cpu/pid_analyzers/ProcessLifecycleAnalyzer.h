@@ -4,30 +4,17 @@
 
 void ProcessLifecycleAnalyzer::analyze(const TelemetryBundle& bundle)
 {
-    for (const auto& e : bundle.cpu().getAllEvents())
+    const auto& events =
+        bundle.cpu().getAllEvents();
+
+    for (size_t i = last_processed;
+         i < events.size();
+         ++i)
     {
-        updateState(e);
+        updateState(events[i]);
     }
 
-    // Generate insights
-    for (const auto& [pid, s] : state)
-    {
-        if (s.first_seen == std::numeric_limits<u64>::max())
-            continue;
-
-        u64 lifetime_ns = s.last_seen - s.first_seen;
-
-        std::cout << "[Lifecycle] PID: " << pid
-                  << " lifetime_ns: " << lifetime_ns
-                  << " events: " << s.event_count;
-
-        if (s.exited)
-        {
-            std::cout << " exit_code: " << s.exit_code;
-        }
-
-        std::cout << std::endl;
-    }
+    last_processed = events.size();
 }
 
 void ProcessLifecycleAnalyzer::updateState(const cpu_event& e)
