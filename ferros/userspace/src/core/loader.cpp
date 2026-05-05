@@ -106,8 +106,17 @@ int start_ebpf(TelemetryBundle &bundle, AnalyzerRegistry &registry)
             break;
         }
          registry.runAll(bundle);
+        
+        auto insights = analyzer.getInsights();
+
+        std::string json =
+        serialize::toPrettyString(insights);
+
+        std::cout << json << std::endl;
+        
         if (std::chrono::steady_clock::now() >= end)
             break;
+
     }
 
 cleanup:

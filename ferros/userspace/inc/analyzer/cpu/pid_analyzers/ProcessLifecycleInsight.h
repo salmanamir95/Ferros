@@ -1,7 +1,7 @@
 #pragma once
 
 #include "events.h"
-
+#include <string>
 
 struct ProcessLifecycleInsight
 {
@@ -11,4 +11,5 @@ struct ProcessLifecycleInsight
     u64 event_count;
     u32 exit_code;
     bool exited;
+    std::string comm;
 };

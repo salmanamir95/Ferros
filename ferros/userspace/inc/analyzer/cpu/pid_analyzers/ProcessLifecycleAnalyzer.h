@@ -13,6 +13,7 @@
 #include <unordered_map>
 #include <limits>
 #include <cstdint>
+#include <array>
 
 #include "analyzer/cpu/ICPUAnalyzer.h"
 #include "telemetry/TelemetryBundle.h"
@@ -34,6 +35,7 @@ private:
         u64 event_count = 0;
         u32 exit_code   = 0;
         bool exited     = false;
+        std::array<char, 16> comm{};
     };
 
     size_t last_processed = 0;
