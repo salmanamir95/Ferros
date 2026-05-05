@@ -121,8 +121,8 @@ int start_ebpf(TelemetryBundle &bundle, AnalyzerRegistry &registry, ProcessLifec
         // 2. Publish to frontend layer
         publisher.publish(insights);
         
-        if (std::chrono::steady_clock::now() >= end)
-            break;
+        // if (std::chrono::steady_clock::now() >= end)
+        //     break;
 
     }
 
