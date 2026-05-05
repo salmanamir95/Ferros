@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferros | Process Telemetry Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <span class="icon">⚡</span>
+                <h1>Ferros <span class="subtitle">Telemetry</span></h1>
+            </div>
+            <div class="header-actions">
+                <div class="live-indicator">
+                    <span class="dot"></span>
+                    LIVE
+                </div>
+                <div class="last-refresh">Last refreshed: <span id="refresh-time">Never</span></div>
+            </div>
+        </header>
+
+        <main>
+            <section class="stats-overview">
+                <div class="stat-card">
+                    <span class="stat-label">Total Processes</span>
+                    <span class="stat-value" id="stat-total">0</span>
+                </div>
+                <div class="stat-card active">
+                    <span class="stat-label">High Activity (>100)</span>
+                    <span class="stat-value" id="stat-high">0</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Total Events</span>
+                    <span class="stat-value" id="stat-events">0</span>
+                </div>
+            </section>
+
+            <section class="controls">
+                <div class="search-box">
+                    <input type="text" id="filter-input" placeholder="Search by PID or Process Name...">
+                </div>
+                <div class="sort-controls">
+                    <label>Sort by:</label>
+                    <select id="sort-select">
+                        <option value="event_count">Event Count (Desc)</option>
+                        <option value="pid">PID</option>
+                        <option value="comm">Process Name</option>
+                    </select>
+                </div>
+            </section>
+
+            <section class="table-container">
+                <table id="process-table">
+                    <thead>
+                        <tr>
+                            <th>PID</th>
+                            <th>Process Name</th>
+                            <th>Event Count</th>
+                            <th>First Seen</th>
+                            <th>Last Seen</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <!-- Rows will be injected here -->
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

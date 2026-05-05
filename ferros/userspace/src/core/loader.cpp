@@ -11,10 +11,12 @@
 #include "events.h"
 #include "common/Serialize.h"
 #include "analyzer/cpu/pid_analyzers/ProcessLifecycleAnalyzer.h"
+#include "storage/FileStorage.h"
+#include "publisher/FrontendPublisher.h"
 // ----------------------------
 // eBPF callback
 // ----------------------------
-static int handle_event(void *ctx, void *data, size_t size, ProcessLifecycleAnalyzer *analyzer)
+static int handle_event(void *ctx, void *data, size_t size)
 {
     auto *bundle = static_cast<TelemetryBundle *>(ctx);
 
@@ -34,13 +36,16 @@ static int handle_event(void *ctx, void *data, size_t size, ProcessLifecycleAnal
 // ----------------------------
 // eBPF lifecycle
 // ----------------------------
-int start_ebpf(TelemetryBundle &bundle, AnalyzerRegistry &registry)
+int start_ebpf(TelemetryBundle &bundle, AnalyzerRegistry &registry, ProcessLifecycleAnalyzer *analyzer)
 {
     struct cpu_usage_bpf *skel = nullptr;
     struct ring_buffer *rb = nullptr;
     int err;
+    
+    FileStorage storage("JSON");
+    FrontendPublisher publisher("JSON");
 
-    auto end = std::chrono::steady_clock::now() + std::chrono::seconds(1);
+    auto end = std::chrono::steady_clock::now() + std::chrono::seconds(10);
     // ----------------------------
     // Allow BPF memory locking
     // ----------------------------
@@ -108,12 +113,13 @@ int start_ebpf(TelemetryBundle &bundle, AnalyzerRegistry &registry)
         }
          registry.runAll(bundle);
         
-        auto insights = analyzer.getInsights();
+        auto insights = analyzer->getInsights();
 
-        std::string json =
-        serialize::toPrettyString(insights);
+        // 1. Persist to disk
+        storage.save(insights);
 
-        std::cout << json << std::endl;
+        // 2. Publish to frontend layer
+        publisher.publish(insights);
         
         if (std::chrono::steady_clock::now() >= end)
             break;

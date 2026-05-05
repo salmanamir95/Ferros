@@ -3,11 +3,11 @@
 #include <vector>
 #include "analyzer/cpu/pid_analyzers/ProcessLifecycleInsight.h"
 
-class IPublisher
+class IStorage
 {
 public:
-    virtual ~IPublisher() = default;
+    virtual ~IStorage() = default;
 
-    virtual void publish(
+    virtual void save(
         const std::vector<ProcessLifecycleInsight>& insights) = 0;
 };
