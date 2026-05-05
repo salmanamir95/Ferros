@@ -9,11 +9,12 @@
 
 #include "cpu_usage.skel.h"
 #include "events.h"
-
+#include "common/Serialize.h"
+#include "analyzer/cpu/pid_analyzers/ProcessLifecycleAnalyzer.h"
 // ----------------------------
 // eBPF callback
 // ----------------------------
-static int handle_event(void *ctx, void *data, size_t size)
+static int handle_event(void *ctx, void *data, size_t size, ProcessLifecycleAnalyzer *analyzer)
 {
     auto *bundle = static_cast<TelemetryBundle *>(ctx);
 

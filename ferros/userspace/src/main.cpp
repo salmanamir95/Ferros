@@ -11,18 +11,20 @@ int main()
     // ----------------------------
     TelemetryBundle bundle;
     AnalyzerRegistry registry;
+    ProcessLifecycleAnalyzer * analyzer = new ProcessLifecycleAnalyzer();
 
     registry.registerAnalyzer(
         TelemetryType::CPU,
-        new ProcessLifecycleAnalyzer()
+        analyzer
     );
 
     // ----------------------------
     // Start eBPF ingestion
     // ----------------------------
-    int ret = start_ebpf(bundle, registry);
+    int ret = start_ebpf(bundle, registry, analyzer);
 
     std::cerr << "Program exited with code: " << ret << std::endl;
 
+    delete analyzer;
     return ret;
 }
