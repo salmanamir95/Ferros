@@ -1,8 +1,0 @@
-{
-  "name": "baseline",
-  "behavior_class": "normal_baseline",
-  "adversarial_behavior_analog_label": "normal_system_behavior",
-  "execution_model": "sleep_intensive",
-  "duration_sec": 30,
-  "deterministic": true
-}

@@ -1,8 +1,0 @@
-{
-  "name": "sustained_load",
-  "behavior_class": "cpu_sustained",
-  "adversarial_behavior_analog_label": "resource_exhaustion_behavior",
-  "execution_model": "compute_intensive",
-  "duration_sec": 30,
-  "deterministic": true
-}

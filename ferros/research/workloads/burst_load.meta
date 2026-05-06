@@ -1,8 +1,0 @@
-{
-  "name": "burst_load",
-  "behavior_class": "cpu_bursty",
-  "adversarial_behavior_analog_label": "bursty_resource_spike_behavior",
-  "execution_model": "compute_sleep_cycle",
-  "duration_sec": 30,
-  "deterministic": true
-}

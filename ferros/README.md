@@ -23,6 +23,11 @@ Ferros supports two primary modes of operation. Please refer to the documentatio
 - **Command**: `python3 research/runner/run_dataset.py`
 - **Output**: ML-ready labeled datasets with adversarial analogs.
 
+### 🧠 [Bayesian Behavioral Framework](docs/research_mode.md)
+*Probabilistic classification and temporal transition research.*
+- **Command**: `python3 research/runner/run_framework.py`
+- **Output**: V2.0 dataset with Mixture Ratios, Posteriors, and Entropy metrics.
+
 ---
 
 ## 📁 Repository Structure

@@ -1,8 +1,0 @@
-{
-  "name": "process_growth",
-  "behavior_class": "process_tree_growth",
-  "adversarial_behavior_analog_label": "hierarchical_process_growth_behavior",
-  "execution_model": "recursive_fork",
-  "duration_sec": 30,
-  "deterministic": true
-}

@@ -1,0 +1,5334 @@
+[
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937133372155,
+      30937233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937183372155,
+      30937283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937233372155,
+      30937333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937283372155,
+      30937383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937333372155,
+      30937433372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937383372155,
+      30937483372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937433372155,
+      30937533372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937483372155,
+      30937583372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937533372155,
+      30937633372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937583372155,
+      30937683372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937633372155,
+      30937733372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937683372155,
+      30937783372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937733372155,
+      30937833372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937783372155,
+      30937883372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937833372155,
+      30937933372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937883372155,
+      30937983372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937933372155,
+      30938033372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30937983372155,
+      30938083372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938033372155,
+      30938133372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938083372155,
+      30938183372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938133372155,
+      30938233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938183372155,
+      30938283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938233372155,
+      30938333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938283372155,
+      30938383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938333372155,
+      30938433372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938383372155,
+      30938483372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938433372155,
+      30938533372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938483372155,
+      30938583372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938533372155,
+      30938633372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938583372155,
+      30938683372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938633372155,
+      30938733372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938683372155,
+      30938783372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938733372155,
+      30938833372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938783372155,
+      30938883372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938833372155,
+      30938933372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938883372155,
+      30938983372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {},
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938933372155,
+      30939033372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 0.10478035
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30938983372155,
+      30939083372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 0.60478035
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939033372155,
+      30939133372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939083372155,
+      30939183372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939133372155,
+      30939233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939183372155,
+      30939283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939233372155,
+      30939333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939283372155,
+      30939383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939333372155,
+      30939433372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939383372155,
+      30939483372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939433372155,
+      30939533372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939483372155,
+      30939583372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939533372155,
+      30939633372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939583372155,
+      30939683372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939633372155,
+      30939733372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939683372155,
+      30939783372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939733372155,
+      30939833372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939783372155,
+      30939883372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939833372155,
+      30939933372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939883372155,
+      30939983372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939933372155,
+      30940033372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30939983372155,
+      30940083372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940033372155,
+      30940133372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940083372155,
+      30940183372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940133372155,
+      30940233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940183372155,
+      30940283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940233372155,
+      30940333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940283372155,
+      30940383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940333372155,
+      30940433372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940383372155,
+      30940483372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940433372155,
+      30940533372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940483372155,
+      30940583372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940533372155,
+      30940633372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940583372155,
+      30940683372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940633372155,
+      30940733372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940683372155,
+      30940783372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940733372155,
+      30940833372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940783372155,
+      30940883372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940833372155,
+      30940933372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940883372155,
+      30940983372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "normal_system_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940933372155,
+      30941033372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 0.10337577,
+      "normal_system_behavior": 0.89521965
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30940983372155,
+      30941083372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 0.60337577,
+      "normal_system_behavior": 0.39521965
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941033372155,
+      30941133372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941083372155,
+      30941183372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941133372155,
+      30941233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941183372155,
+      30941283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941233372155,
+      30941333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941283372155,
+      30941383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941333372155,
+      30941433372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941383372155,
+      30941483372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941433372155,
+      30941533372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941483372155,
+      30941583372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941533372155,
+      30941633372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941583372155,
+      30941683372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941633372155,
+      30941733372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941683372155,
+      30941783372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941733372155,
+      30941833372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941783372155,
+      30941883372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941833372155,
+      30941933372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941883372155,
+      30941983372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941933372155,
+      30942033372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30941983372155,
+      30942083372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942033372155,
+      30942133372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942083372155,
+      30942183372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942133372155,
+      30942233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942183372155,
+      30942283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942233372155,
+      30942333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942283372155,
+      30942383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942333372155,
+      30942433372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942383372155,
+      30942483372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942433372155,
+      30942533372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942483372155,
+      30942583372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942533372155,
+      30942633372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942583372155,
+      30942683372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942633372155,
+      30942733372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942683372155,
+      30942783372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942733372155,
+      30942833372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942783372155,
+      30942883372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942833372155,
+      30942933372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942883372155,
+      30942983372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942933372155,
+      30943033372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30942983372155,
+      30943083372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943033372155,
+      30943133372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943083372155,
+      30943183372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943133372155,
+      30943233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943183372155,
+      30943283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943233372155,
+      30943333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943283372155,
+      30943383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943333372155,
+      30943433372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943383372155,
+      30943483372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943433372155,
+      30943533372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943483372155,
+      30943583372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943533372155,
+      30943633372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943583372155,
+      30943683372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943633372155,
+      30943733372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943683372155,
+      30943783372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943733372155,
+      30943833372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943783372155,
+      30943883372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 1.8896622381313196e-30,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 1.7918238154431094e-32,
+        "cpu_affinity_migration_behavior": 3.0209940703214125e-50,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 1.9479265992856734e-59,
+        "scheduler_contention_behavior": 1.6452351138391292e-45
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943833372155,
+      30943933372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943883372155,
+      30943983372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "cpu_resource_pressure_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943933372155,
+      30944033372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 0.09991171,
+      "cpu_resource_pressure_behavior": 0.89662423
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30943983372155,
+      30944083372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 0.59991171,
+      "cpu_resource_pressure_behavior": 0.39662423
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944033372155,
+      30944133372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944083372155,
+      30944183372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944133372155,
+      30944233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944183372155,
+      30944283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944233372155,
+      30944333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944283372155,
+      30944383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944333372155,
+      30944433372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944383372155,
+      30944483372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944433372155,
+      30944533372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944483372155,
+      30944583372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 1.2516766511070214e-29,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 1.2188379317272483e-31,
+        "cpu_affinity_migration_behavior": 0.0,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 0.0,
+        "scheduler_contention_behavior": 0.0
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944533372155,
+      30944633372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 4.452866895010079e-26,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 4.908431994614217e-28,
+        "cpu_affinity_migration_behavior": 1.425952453181877e-48,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 4.11033432114994e-60,
+        "scheduler_contention_behavior": 1.4213321087833476e-42
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944583372155,
+      30944683372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944633372155,
+      30944733372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944683372155,
+      30944783372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944733372155,
+      30944833372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944783372155,
+      30944883372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944833372155,
+      30944933372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944883372155,
+      30944983372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944933372155,
+      30945033372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30944983372155,
+      30945083372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945033372155,
+      30945133372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945083372155,
+      30945183372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945133372155,
+      30945233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945183372155,
+      30945283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945233372155,
+      30945333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945283372155,
+      30945383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945333372155,
+      30945433372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945383372155,
+      30945483372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945433372155,
+      30945533372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945483372155,
+      30945583372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945533372155,
+      30945633372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945583372155,
+      30945683372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945633372155,
+      30945733372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945683372155,
+      30945783372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945733372155,
+      30945833372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945783372155,
+      30945883372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945833372155,
+      30945933372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945883372155,
+      30945983372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945933372155,
+      30946033372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30945983372155,
+      30946083372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946033372155,
+      30946133372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946083372155,
+      30946183372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946133372155,
+      30946233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946183372155,
+      30946283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946233372155,
+      30946333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946283372155,
+      30946383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946333372155,
+      30946433372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946383372155,
+      30946483372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946433372155,
+      30946533372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946483372155,
+      30946583372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946533372155,
+      30946633372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946583372155,
+      30946683372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946633372155,
+      30946733372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946683372155,
+      30946783372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946733372155,
+      30946833372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946783372155,
+      30946883372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946833372155,
+      30946933372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946883372155,
+      30946983372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946933372155,
+      30947033372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 0.90008829,
+      "scheduler_contention_behavior": 0.00074796
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30946983372155,
+      30947083372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.0,
+      "posterior_distribution": {
+        "bursty_compute_behavior": null,
+        "cpu_affinity_migration_behavior": null,
+        "cpu_resource_pressure_behavior": null,
+        "normal_system_behavior": null,
+        "scheduler_contention_behavior": null
+      }
+    },
+    "behavior_label": "",
+    "mixture_ratio": {
+      "bursty_compute_behavior": 0.40008829,
+      "scheduler_contention_behavior": 0.50074796
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947033372155,
+      30947133372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 3.360013070804877e-26,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 3.6869924371915747e-28,
+        "cpu_affinity_migration_behavior": 2.0443691408104753e-48,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 5.102047938250516e-61,
+        "scheduler_contention_behavior": 1.6419330111548563e-37
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947083372155,
+      30947183372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 6.821766950805844e-18,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 1.0827851922908029e-19,
+        "cpu_affinity_migration_behavior": 5.466901744399709e-34,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 1.8012933183217974e-43,
+        "scheduler_contention_behavior": 1.9424937801036834e-25
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947133372155,
+      30947233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 2.619073896024816e-15,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 4.832229658915428e-17,
+        "cpu_affinity_migration_behavior": 2.8037128376070713e-24,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 5.155881009896563e-28,
+        "scheduler_contention_behavior": 1.209226156328246e-23
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947183372155,
+      30947283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 2.619073896024816e-15,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 4.832229658915428e-17,
+        "cpu_affinity_migration_behavior": 2.8037128376070713e-24,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 5.155881009896563e-28,
+        "scheduler_contention_behavior": 1.209226156328246e-23
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947233372155,
+      30947333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 2.619073896024816e-15,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 4.832229658915428e-17,
+        "cpu_affinity_migration_behavior": 2.8037128376070713e-24,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 5.155881009896563e-28,
+        "scheduler_contention_behavior": 1.209226156328246e-23
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947283372155,
+      30947383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 2.619073896024816e-15,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 4.832229658915428e-17,
+        "cpu_affinity_migration_behavior": 2.8037128376070713e-24,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 5.155881009896563e-28,
+        "scheduler_contention_behavior": 1.209226156328246e-23
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947333372155,
+      30947433372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 2.619073896024816e-15,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 4.832229658915428e-17,
+        "cpu_affinity_migration_behavior": 2.8037128376070713e-24,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 5.155881009896563e-28,
+        "scheduler_contention_behavior": 1.209226156328246e-23
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947383372155,
+      30947483372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 2.619073896024816e-15,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 4.832229658915428e-17,
+        "cpu_affinity_migration_behavior": 2.8037128376070713e-24,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 5.155881009896563e-28,
+        "scheduler_contention_behavior": 1.209226156328246e-23
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947433372155,
+      30947533372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 2.619073896024816e-15,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 4.832229658915428e-17,
+        "cpu_affinity_migration_behavior": 2.8037128376070713e-24,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 5.155881009896563e-28,
+        "scheduler_contention_behavior": 1.209226156328246e-23
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947483372155,
+      30947583372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 2.619073896024816e-15,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 4.832229658915428e-17,
+        "cpu_affinity_migration_behavior": 2.8037128376070713e-24,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 5.155881009896563e-28,
+        "scheduler_contention_behavior": 1.209226156328246e-23
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947533372155,
+      30947633372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 2.619073896024816e-15,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 4.832229658915428e-17,
+        "cpu_affinity_migration_behavior": 2.8037128376070713e-24,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 5.155881009896563e-28,
+        "scheduler_contention_behavior": 1.209226156328246e-23
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947583372155,
+      30947683372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 2.619073896024816e-15,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 4.832229658915428e-17,
+        "cpu_affinity_migration_behavior": 2.8037128376070713e-24,
+        "cpu_resource_pressure_behavior": 1.0,
+        "normal_system_behavior": 5.155881009896563e-28,
+        "scheduler_contention_behavior": 1.209226156328246e-23
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947633372155,
+      30947733372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 1.8232502208701332e-13,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 3.691708025890302e-15,
+        "cpu_affinity_migration_behavior": 2.0029873285703837e-26,
+        "cpu_resource_pressure_behavior": 0.9999999999999963,
+        "normal_system_behavior": 2.172471212986211e-34,
+        "scheduler_contention_behavior": 6.926204505066509e-19
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947683372155,
+      30947783372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 3.5388205526448173e-06,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 5.2669901194080195e-08,
+        "cpu_affinity_migration_behavior": 1.022989061682039e-13,
+        "cpu_resource_pressure_behavior": 0.9999998593360208,
+        "normal_system_behavior": 7.598699435963905e-19,
+        "scheduler_contention_behavior": 8.79939758100775e-08
+      }
+    },
+    "behavior_label": "cpu_resource_pressure_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "critical",
+      "score": 1.0
+    },
+    "timestamp_range": [
+      30947733372155,
+      30947833372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.017111625829969283,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 2.4430562229132157e-07,
+        "cpu_affinity_migration_behavior": 0.001565023781157773,
+        "cpu_resource_pressure_behavior": 1.5151392238115097e-05,
+        "normal_system_behavior": 0.9984195796589955,
+        "scheduler_contention_behavior": 8.619863361397307e-10
+      }
+    },
+    "behavior_label": "normal_system_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.0
+    },
+    "timestamp_range": [
+      30947783372155,
+      30947883372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.017111625829969283,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 2.4430562229132157e-07,
+        "cpu_affinity_migration_behavior": 0.001565023781157773,
+        "cpu_resource_pressure_behavior": 1.5151392238115097e-05,
+        "normal_system_behavior": 0.9984195796589955,
+        "scheduler_contention_behavior": 8.619863361397307e-10
+      }
+    },
+    "behavior_label": "normal_system_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.0
+    },
+    "timestamp_range": [
+      30947833372155,
+      30947933372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.017111625829969283,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 2.4430562229132157e-07,
+        "cpu_affinity_migration_behavior": 0.001565023781157773,
+        "cpu_resource_pressure_behavior": 1.5151392238115097e-05,
+        "normal_system_behavior": 0.9984195796589955,
+        "scheduler_contention_behavior": 8.619863361397307e-10
+      }
+    },
+    "behavior_label": "normal_system_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.0
+    },
+    "timestamp_range": [
+      30947883372155,
+      30947983372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.017111625829969283,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 2.4430562229132157e-07,
+        "cpu_affinity_migration_behavior": 0.001565023781157773,
+        "cpu_resource_pressure_behavior": 1.5151392238115097e-05,
+        "normal_system_behavior": 0.9984195796589955,
+        "scheduler_contention_behavior": 8.619863361397307e-10
+      }
+    },
+    "behavior_label": "normal_system_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.0
+    },
+    "timestamp_range": [
+      30947933372155,
+      30948033372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.017111625829969283,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 2.4430562229132157e-07,
+        "cpu_affinity_migration_behavior": 0.001565023781157773,
+        "cpu_resource_pressure_behavior": 1.5151392238115097e-05,
+        "normal_system_behavior": 0.9984195796589955,
+        "scheduler_contention_behavior": 8.619863361397307e-10
+      }
+    },
+    "behavior_label": "normal_system_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.0
+    },
+    "timestamp_range": [
+      30947983372155,
+      30948083372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.017111625829969283,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 2.4430562229132157e-07,
+        "cpu_affinity_migration_behavior": 0.001565023781157773,
+        "cpu_resource_pressure_behavior": 1.5151392238115097e-05,
+        "normal_system_behavior": 0.9984195796589955,
+        "scheduler_contention_behavior": 8.619863361397307e-10
+      }
+    },
+    "behavior_label": "normal_system_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.0
+    },
+    "timestamp_range": [
+      30948033372155,
+      30948133372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.017111625829969283,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 2.4430562229132157e-07,
+        "cpu_affinity_migration_behavior": 0.001565023781157773,
+        "cpu_resource_pressure_behavior": 1.5151392238115097e-05,
+        "normal_system_behavior": 0.9984195796589955,
+        "scheduler_contention_behavior": 8.619863361397307e-10
+      }
+    },
+    "behavior_label": "normal_system_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.0
+    },
+    "timestamp_range": [
+      30948083372155,
+      30948183372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.017111625829969283,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 2.4430562229132157e-07,
+        "cpu_affinity_migration_behavior": 0.001565023781157773,
+        "cpu_resource_pressure_behavior": 1.5151392238115097e-05,
+        "normal_system_behavior": 0.9984195796589955,
+        "scheduler_contention_behavior": 8.619863361397307e-10
+      }
+    },
+    "behavior_label": "normal_system_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.0
+    },
+    "timestamp_range": [
+      30948133372155,
+      30948233372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.017111625829969283,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 2.4430562229132157e-07,
+        "cpu_affinity_migration_behavior": 0.001565023781157773,
+        "cpu_resource_pressure_behavior": 1.5151392238115097e-05,
+        "normal_system_behavior": 0.9984195796589955,
+        "scheduler_contention_behavior": 8.619863361397307e-10
+      }
+    },
+    "behavior_label": "normal_system_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.0
+    },
+    "timestamp_range": [
+      30948183372155,
+      30948283372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 0.017111625829969283,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 2.4430562229132157e-07,
+        "cpu_affinity_migration_behavior": 0.001565023781157773,
+        "cpu_resource_pressure_behavior": 1.5151392238115097e-05,
+        "normal_system_behavior": 0.9984195796589955,
+        "scheduler_contention_behavior": 8.619863361397307e-10
+      }
+    },
+    "behavior_label": "normal_system_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.0
+    },
+    "timestamp_range": [
+      30948233372155,
+      30948333372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 1.4161425811484387,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 0.0005253415328542001,
+        "cpu_affinity_migration_behavior": 0.17837272353395398,
+        "cpu_resource_pressure_behavior": 0.0002139184792796023,
+        "normal_system_behavior": 0.25211741768770846,
+        "scheduler_contention_behavior": 0.5687705987662037
+      }
+    },
+    "behavior_label": "scheduler_contention_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.16021495
+    },
+    "timestamp_range": [
+      30948283372155,
+      30948383372155
+    ]
+  },
+  {
+    "bayesian_output": {
+      "confidence_entropy": 1.4161425811484387,
+      "posterior_distribution": {
+        "bursty_compute_behavior": 0.0005253415328542001,
+        "cpu_affinity_migration_behavior": 0.17837272353395398,
+        "cpu_resource_pressure_behavior": 0.0002139184792796023,
+        "normal_system_behavior": 0.25211741768770846,
+        "scheduler_contention_behavior": 0.5687705987662037
+      }
+    },
+    "behavior_label": "scheduler_contention_behavior",
+    "mixture_ratio": {
+      "scheduler_contention_behavior": 1.0
+    },
+    "system_impact": {
+      "category": "stable",
+      "score": 0.16021495
+    },
+    "timestamp_range": [
+      30948333372155,
+      30948433372155
+    ]
+  }
+]

@@ -1,8 +1,0 @@
-{
-  "name": "scheduler_stress",
-  "behavior_class": "scheduler_pressure",
-  "adversarial_behavior_analog_label": "scheduler_pressure_behavior",
-  "execution_model": "high_context_switch",
-  "duration_sec": 30,
-  "deterministic": true
-}
