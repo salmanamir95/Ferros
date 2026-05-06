@@ -1,0 +1,24 @@
+{
+  "dataset_version": "1.0",
+  "feature_window_ms": 100,
+  "stride_ms": 50,
+  "kernel_version": "linux",
+  "compiler": "gcc",
+  "label_schema": "dual_layer_v1",
+  "behavior_classes": [
+    "cpu_bursty",
+    "cpu_sustained",
+    "scheduler_pressure",
+    "process_tree_growth",
+    "migration_heavy",
+    "normal_baseline"
+  ],
+  "adversarial_analogs": [
+    "resource_exhaustion_behavior",
+    "bursty_resource_spike_behavior",
+    "scheduler_pressure_behavior",
+    "hierarchical_process_growth_behavior",
+    "cpu_migration_intensive_behavior",
+    "normal_system_behavior"
+  ]
+}

@@ -5,14 +5,16 @@
 
 void ProcessLifecycleAnalyzer::analyze(const TelemetryBundle& bundle)
 {
-    const auto& events = bundle.cpu().getAllEvents();
+    const auto& events = bundle.raw();
 
-    for (size_t i = last_processed; i < events.size(); ++i)
+    for (const auto& ev : events)
     {
-        updateState(events[i]);
+        if (ev.h.type == EVENT_SCHED_SWITCH) {
+            updateFromSwitch(ev);
+        } else if (ev.h.type == EVENT_PROCESS_FORK) {
+            updateFromFork(ev);
+        }
     }
-
-    last_processed = events.size();
 }
 
 void ProcessLifecycleAnalyzer::collectInsights(std::vector<std::shared_ptr<IInsight>>& insights)
@@ -24,24 +26,35 @@ void ProcessLifecycleAnalyzer::collectInsights(std::vector<std::shared_ptr<IInsi
     }
 }
 
-void ProcessLifecycleAnalyzer::updateState(const cpu_event& e)
+void ProcessLifecycleAnalyzer::updateFromSwitch(const foc_event& ev)
 {
-    auto& s = state[e.pid];
-
-    if (s.first_seen == std::numeric_limits<u64>::max())
-    {
-        s.first_seen = e.timestamp_ns;
-        std::memcpy(s.comm.data(), e.comm, sizeof(e.comm));
+    const auto& s = ev.p.sw;
+    // Process arriving on CPU
+    auto& next = state[s.next_pid];
+    if (next.first_seen == std::numeric_limits<u64>::max()) {
+        next.first_seen = ev.h.ts;
+        std::strncpy(next.comm.data(), s.next_comm, 16);
     }
+    next.last_seen = ev.h.ts;
+    next.event_count++;
 
-    s.last_seen = e.timestamp_ns;
-    s.event_count++;
+    // Process leaving CPU
+    auto& prev = state[s.prev_pid];
+    prev.last_seen = ev.h.ts;
+    prev.event_count++;
+}
 
-    if (e.exit_code != 0)
-    {
-        s.exit_code = e.exit_code;
-        s.exited = true;
-    }
+void ProcessLifecycleAnalyzer::updateFromFork(const foc_event& ev)
+{
+    const auto& f = ev.p.fk;
+    auto& child = state[f.child_pid];
+    child.first_seen = ev.h.ts;
+    child.last_seen = ev.h.ts;
+    child.event_count = 1;
+    std::strncpy(child.comm.data(), f.child_comm, 16);
+
+    auto& parent = state[f.parent_pid];
+    std::strncpy(parent.comm.data(), f.parent_comm, 16);
 }
 
 std::vector<ProcessLifecycleInsight> ProcessLifecycleAnalyzer::getInsights() const

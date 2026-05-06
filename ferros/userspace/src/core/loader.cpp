@@ -83,33 +83,20 @@ int start_ebpf(TelemetryBundle &bundle, Pipeline &pipeline)
 
     while (g_running)
     {
-        err = ring_buffer__poll(rb, 1); // 1ms timeout
+        err = ring_buffer__poll(rb, 1); 
 
         if (err < 0 && err != -EINTR) {
             std::cerr << "ring buffer error: " << err << "\n";
             break;
         }
 
+        // Direct ingestion into the truth stream
         while (auto opt_ev = g_event_queue.pop()) {
-            const auto& ev = *opt_ev;
-            bundle.addRawEvent(ev);
-
-            // Minimal legacy normalization for baseline CPUTelemetry
-            if (ev.h.type == EVENT_SCHED_SWITCH) {
-                cpu_event legacy_ev;
-                legacy_ev.pid = ev.h.pid;
-                legacy_ev.tgid = ev.h.tgid;
-                legacy_ev.cpu = ev.h.cpu;
-                legacy_ev.timestamp_ns = ev.h.ts;
-                legacy_ev.runtime_ns = 0; // Intelligence moved to userspace
-                std::strncpy(legacy_ev.comm, ev.p.sw.next_comm, 16);
-
-                bundle.cpu().addEvent(legacy_ev);
-            }
+            bundle.addEvent(*opt_ev);
         }
 
         pipeline.step(bundle);
-        bundle.clearRaw();
+        bundle.clear();
     }
 
 cleanup:

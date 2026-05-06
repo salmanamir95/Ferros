@@ -32,8 +32,8 @@ private:
         std::array<char, 16> comm{};
     };
 
-    size_t last_processed = 0;
     std::unordered_map<u32, LifecycleState> state;
 
-    void updateState(const cpu_event& e);
+    void updateFromSwitch(const foc_event& ev);
+    void updateFromFork(const foc_event& ev);
 };

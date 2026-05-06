@@ -1,0 +1,8 @@
+{
+  "name": "migration_evasion",
+  "behavior_class": "migration_heavy",
+  "adversarial_behavior_analog_label": "cpu_migration_intensive_behavior",
+  "execution_model": "forced_affinity_shift",
+  "duration_sec": 30,
+  "deterministic": true
+}

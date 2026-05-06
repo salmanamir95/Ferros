@@ -11,7 +11,6 @@ struct {
     __uint(max_entries, RINGBUF_SIZE);
 } events SEC(".maps");
 
-// Tracks the last CPU each PID was seen on (Disambiguation Truth)
 struct {
     __uint(type, BPF_MAP_TYPE_HASH);
     __uint(max_entries, 10240);
@@ -25,30 +24,32 @@ int handle_sched_switch(struct trace_event_raw_sched_switch *ctx)
     struct foc_event *e;
     u64 now = bpf_ktime_get_ns();
     u32 cpu = bpf_get_smp_processor_id();
+    u32 next_pid = ctx->next_pid; // Copy to stack for map lookup safety
 
     e = bpf_ringbuf_reserve(&events, sizeof(*e), 0);
     if (!e) return 0;
 
-    // 1. Production Header (Identity Stability)
+    // 1. Header (Aligned)
     e->h.ts = now;
-    e->h.pid = ctx->next_pid;
-    e->h.tgid = bpf_get_current_pid_tgid() & 0xFFFFFFFF; // Accurate for the incoming task
+    e->h.pid = next_pid;
+    e->h.tgid = (u32)bpf_get_current_pid_tgid(); 
     e->h.cpu = cpu;
     e->h.type = EVENT_SCHED_SWITCH;
+    e->h.reserved = 0;
 
-    // 2. Scheduler Payload (Lossless Truth)
+    // 2. Payload
     e->p.sw.prev_pid = ctx->prev_pid;
-    e->p.sw.next_pid = ctx->next_pid;
+    e->p.sw.next_pid = next_pid;
     e->p.sw.next_cpu = cpu;
     
-    // Explicit Disambiguation: prev_cpu from map
-    u32 *last_cpu = bpf_map_lookup_elem(&pid_last_cpu, &ctx->next_pid);
+    // Map Lookup using stack variable
+    u32 *last_cpu = bpf_map_lookup_elem(&pid_last_cpu, &next_pid);
     if (last_cpu) {
         e->p.sw.prev_cpu = *last_cpu;
     } else {
-        e->p.sw.prev_cpu = cpu; // First time seen
+        e->p.sw.prev_cpu = cpu;
     }
-    bpf_map_update_elem(&pid_last_cpu, &ctx->next_pid, &cpu, BPF_ANY);
+    bpf_map_update_elem(&pid_last_cpu, &next_pid, &cpu, BPF_ANY);
 
     e->p.sw.prev_prio = ctx->prev_prio;
     e->p.sw.next_prio = ctx->next_prio;
@@ -66,18 +67,18 @@ int handle_process_fork(struct trace_event_raw_sched_process_fork *ctx)
 {
     struct foc_event *e;
     u64 now = bpf_ktime_get_ns();
+    u64 pid_tgid = bpf_get_current_pid_tgid();
 
     e = bpf_ringbuf_reserve(&events, sizeof(*e), 0);
     if (!e) return 0;
 
-    // Header reflects the parent context triggering the fork
     e->h.ts = now;
-    e->h.pid = bpf_get_current_pid_tgid() >> 32;
-    e->h.tgid = bpf_get_current_pid_tgid() & 0xFFFFFFFF;
+    e->h.pid = (u32)(pid_tgid >> 32);
+    e->h.tgid = (u32)pid_tgid;
     e->h.cpu = bpf_get_smp_processor_id();
     e->h.type = EVENT_PROCESS_FORK;
+    e->h.reserved = 0;
 
-    // Payload reflects the relationship truth
     e->p.fk.parent_pid = ctx->parent_pid;
     e->p.fk.child_pid = ctx->child_pid;
     

@@ -8,58 +8,63 @@
 #include "publisher/IPublisher.h"
 #include "common/ISerializer.h"
 #include "telemetry/TelemetryBundle.h"
+#include "core/DataAuditor.h"
 
 /**
- * @brief Minimal Pipeline Orchestrator.
- * Manages the flow from Analyzers to Serializers and Publishers.
+ * @brief Batch-Optimized Pipeline Orchestrator with Strict Pruning.
  */
 class Pipeline {
 public:
     Pipeline() = default;
     ~Pipeline() = default;
 
-    /**
-     * @brief Adds an analyzer to the pipeline.
-     */
     void addAnalyzer(std::unique_ptr<IAnalyzer> analyzer) {
         analyzers.push_back(std::move(analyzer));
     }
 
-    /**
-     * @brief Adds a publisher to the pipeline.
-     */
     void addPublisher(std::unique_ptr<IPublisher> publisher) {
         publishers.push_back(std::move(publisher));
     }
 
-    /**
-     * @brief Sets the serializer for the pipeline.
-     */
     void setSerializer(std::unique_ptr<ISerializer> serializer) {
         this->serializer = std::move(serializer);
     }
 
-    /**
-     * @brief Executes one step of the pipeline.
-     * @param bundle The telemetry data to process.
-     */
     void step(const TelemetryBundle& bundle) {
         if (!serializer) return;
 
-        std::vector<std::shared_ptr<IInsight>> insights;
-
-        // 1. Analyze
+        std::vector<std::shared_ptr<IInsight>> raw_insights;
         for (auto& analyzer : analyzers) {
-            analyzer->run(bundle, insights);
+            analyzer->run(bundle, raw_insights);
         }
 
-        // 2. Serialize and Publish
-        for (const auto& insight : insights) {
-            std::string serializedData = serializer->serialize(*insight);
-            
-            for (auto& publisher : publishers) {
-                publisher->publish(serializedData);
+        std::vector<std::shared_ptr<IInsight>> clean_insights;
+        DataAuditor auditor;
+        auditor.audit(raw_insights, clean_insights);
+
+        if (clean_insights.empty()) return;
+
+        std::vector<std::string> serialized_blocks;
+        for (const auto& ins : clean_insights) {
+            std::string block = serializer->serialize(*ins);
+            // SECONDARY SAFETY: Skip fallback empty objects
+            if (block != "  {}") {
+                serialized_blocks.push_back(block);
             }
+        }
+
+        if (serialized_blocks.empty()) return;
+
+        // Construct final JSON array
+        std::string batch = "[\n";
+        for (size_t i = 0; i < serialized_blocks.size(); ++i) {
+            batch += serialized_blocks[i];
+            if (i < serialized_blocks.size() - 1) batch += ",\n";
+        }
+        batch += "\n]";
+
+        for (auto& publisher : publishers) {
+            publisher->publish(batch);
         }
     }
 

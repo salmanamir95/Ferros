@@ -12,14 +12,16 @@ typedef enum {
 } foc_type_t;
 
 /**
- * @brief Rich header for identity stability
+ * @brief Aligned header for identity stability
+ * Size: 24 bytes (8-aligned)
  */
 struct foc_header {
     u64 ts;
     u32 pid;
-    u32 tgid;   // Required for correctness (threads, exec, mid-flight observation)
+    u32 tgid;
     u32 cpu;
     u16 type;
+    u16 reserved; 
 } __attribute__((packed));
 
 /**
@@ -29,7 +31,7 @@ struct foc_switch_payload {
     u32 prev_pid;
     u32 next_pid;
 
-    u32 prev_cpu;     // Cheap + Valuable for cross-CPU causality
+    u32 prev_cpu;     
     u32 next_cpu;
 
     s32 prev_prio;
@@ -66,16 +68,5 @@ struct foc_event {
         struct foc_fork_payload fk;
     } p;
 } __attribute__((packed, aligned(8)));
-
-// Legacy struct for compatibility with baseline CPUTelemetry
-struct cpu_event {
-    u32 pid;
-    u32 tgid;
-    u32 cpu;
-    u64 timestamp_ns;
-    u64 runtime_ns;
-    u32 exit_code;
-    char comm[16];
-};
 
 #endif
