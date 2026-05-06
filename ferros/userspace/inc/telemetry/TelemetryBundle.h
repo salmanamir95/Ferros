@@ -1,10 +1,8 @@
 #pragma once
 
+#include <vector>
 #include "telemetry/CPUTelemetry.h"
-
-// later you will add:
-// #include "telemetry/MemoryTelemetry.h"
-// #include "telemetry/SchedTelemetry.h"
+#include "events.h"
 
 class TelemetryBundle
 {
@@ -12,20 +10,16 @@ public:
     TelemetryBundle() = default;
     ~TelemetryBundle() = default;
 
-    // ----------------------------
-    // Domain access (read/write)
-    // ----------------------------
+    // Domain access (legacy normalization)
     CPUTelemetry& cpu() { return cpuTelemetry; }
     const CPUTelemetry& cpu() const { return cpuTelemetry; }
 
-    // Future extensions:
-    // MemoryTelemetry& memory();
-    // SchedTelemetry& sched();
+    // Production Truth Stream access
+    void addRawEvent(const foc_event& ev) { rawEvents.push_back(ev); }
+    const std::vector<foc_event>& raw() const { return rawEvents; }
+    void clearRaw() { rawEvents.clear(); }
 
 private:
     CPUTelemetry cpuTelemetry;
-
-    // Future fields:
-    // MemoryTelemetry memoryTelemetry;
-    // SchedTelemetry schedTelemetry;
+    std::vector<foc_event> rawEvents;
 };

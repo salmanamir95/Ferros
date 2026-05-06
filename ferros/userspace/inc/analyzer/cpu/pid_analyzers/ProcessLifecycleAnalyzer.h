@@ -1,19 +1,11 @@
-// PID ANALYZERS
-// │
-// ├── ProcessLifecycleAnalyzer
-// ├── ProcessCPUUsageAnalyzer
-// ├── ProcessBurstAnalyzer
-// ├── ProcessSchedulingFrequencyAnalyzer
-// ├── ProcessCoreAffinityAnalyzer
-// ├── ProcessStabilityAnalyzer
-// └── ProcessAnomalyAnalyzer
-
 #pragma once
 
 #include <unordered_map>
 #include <limits>
 #include <cstdint>
 #include <array>
+#include <memory>
+#include <vector>
 
 #include "analyzer/cpu/ICPUAnalyzer.h"
 #include "telemetry/TelemetryBundle.h"
@@ -24,6 +16,8 @@ class ProcessLifecycleAnalyzer : public ICPUAnalyzer
 {
 public:
     void analyze(const TelemetryBundle& bundle) override;
+    
+    void collectInsights(std::vector<std::shared_ptr<IInsight>>& insights) override;
 
     std::vector<ProcessLifecycleInsight> getInsights() const;
 
@@ -39,8 +33,6 @@ private:
     };
 
     size_t last_processed = 0;
-    
-
     std::unordered_map<u32, LifecycleState> state;
 
     void updateState(const cpu_event& e);

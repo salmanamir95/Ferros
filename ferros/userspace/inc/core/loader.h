@@ -2,9 +2,9 @@
 #define LOADER_H
 
 #include "telemetry/TelemetryBundle.h"
-#include "analyzer/AnalyzerRegistry.h"
-#include "analyzer/cpu/pid_analyzers/ProcessLifecycleAnalyzer.h"
+#include "core/Pipeline.h"
+
 // Starts the eBPF lifecycle and returns 0 on success, non-zero on failure.
-int start_ebpf(TelemetryBundle &bundle, AnalyzerRegistry &registry, ProcessLifecycleAnalyzer *analyzer);
+int start_ebpf(TelemetryBundle &bundle, Pipeline &pipeline);
 
 #endif

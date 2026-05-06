@@ -1,9 +1,9 @@
 #include "publisher/FrontendPublisher.h"
-#include "common/Serialize.h"
 #include <filesystem>
 #include <fstream>
 #include <iostream>
 #include <algorithm>
+#include <nlohmann/json.hpp>
 
 namespace fs = std::filesystem;
 
@@ -15,14 +15,14 @@ FrontendPublisher::FrontendPublisher(const std::string& dir) : directory(dir)
     }
 }
 
-void FrontendPublisher::publish(const std::vector<ProcessLifecycleInsight>& insights)
+void FrontendPublisher::publish(const std::string& data)
 {
-    // 1. Update latest.json (Snapshot as JSON array)
+    // 1. Update latest.json (Snapshot as JSON string)
     std::string latestPath = directory + "/latest.json";
     std::ofstream latestFile(latestPath);
     if (latestFile.is_open())
     {
-        latestFile << serialize::toJson(insights).dump(4) << std::endl;
+        latestFile << data << std::endl;
     }
 
     // 2. Update index.json (List of all telemetry files)
@@ -45,7 +45,6 @@ void FrontendPublisher::updateIndex()
         }
     }
 
-    // Sort files to have them in order (optional but nice)
     std::sort(files.begin(), files.end());
 
     for (const auto& file : files)

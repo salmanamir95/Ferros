@@ -1,5 +1,4 @@
 #include "storage/FileStorage.h"
-#include "common/Serialize.h"
 #include <filesystem>
 #include <fstream>
 #include <chrono>
@@ -15,9 +14,9 @@ FileStorage::FileStorage(const std::string& dir) : directory(dir)
     }
 }
 
-void FileStorage::save(const std::vector<ProcessLifecycleInsight>& insights)
+void FileStorage::publish(const std::string& data)
 {
-    if (insights.empty()) return;
+    if (data.empty()) return;
 
     // Generate a timestamped filename
     auto now = std::chrono::system_clock::now();
@@ -33,8 +32,5 @@ void FileStorage::save(const std::vector<ProcessLifecycleInsight>& insights)
         return;
     }
 
-    for (const auto& insight : insights)
-    {
-        outFile << serialize::toJson(insight).dump() << "\n";
-    }
+    outFile << data << "\n";
 }

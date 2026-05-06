@@ -2,9 +2,13 @@
 
 #include <string>
 #include <cstdint>
+#include "common/IInsight.h"
 #include "types.h"
-struct ProcessLifecycleInsight
+
+struct ProcessLifecycleInsight : public IInsight
 {
+    std::string type() const override { return "ProcessLifecycle"; }
+
     u32 pid;
     std::string comm;
 
@@ -15,7 +19,6 @@ struct ProcessLifecycleInsight
     u32 exit_code;
     bool exited;
 
-    // 👇 ADD THIS
     ProcessLifecycleInsight(
         u32 pid_,
         std::string comm_,
